@@ -4,9 +4,9 @@ sidebar_position: 1
 
 # Intro
 
-## Welcome to Official Firebase Headless CMS Documentation! 🔥
+## Welcome to Official Fireck Documentation! 🔥
 
-**Fireck** is the headless cms that you deploy on your netlify account and connect with your firebase project.
+**Fireck** is a firebase headless cms that you deploy on your netlify account and connect with your firebase project.
 
 Fireck can rebuild itself with new environment variables and it makes possible to impact the code of the app inside the application.
 
