@@ -14,7 +14,7 @@ module.exports = {
       style: "primary",
       logo: {
         alt: "",
-        src: "img/logo.png",
+        src: "img/logo.svg",
       },
       items: [
         {
