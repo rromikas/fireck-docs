@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Intro
 
-## Welcome to Official Fireck Documentation! 🔥
+## Welcome to Official Fireck Documentation! 💎
 
 **Fireck** is a firebase headless cms that you deploy on your netlify account and connect with your firebase project.
 
