@@ -2,7 +2,7 @@
 module.exports = {
   title: "Fireck API reference",
   tagline: "Fireck | Firebase Headless CMS",
-  url: "https://fireck-docs.netlify.app/",
+  url: "https://fireck-docs.netlify.app/docs/",
   baseUrl: "/docs/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
