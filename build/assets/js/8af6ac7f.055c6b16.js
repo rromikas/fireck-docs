@@ -1,0 +1,1 @@
+(self.webpackChunkfireck_docs=self.webpackChunkfireck_docs||[]).push([[213],{8650:function(s){"use strict";s.exports=JSON.parse('{"allTagsPath":"/docs/blog/tags","slug":"hello","name":"hello","count":2,"permalink":"/docs/blog/tags/hello"}')}}]);
