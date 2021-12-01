@@ -1,9 +1,9 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: "Fireck API reference",
+  title: "Fireck Docs",
   tagline: "Fireck | Firebase Headless CMS",
-  url: "https://fireck-docs.netlify.app/docs/",
-  baseUrl: "/docs/",
+  url: "https://fireck-docs.netlify.app",
+  baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/logo.ico",
