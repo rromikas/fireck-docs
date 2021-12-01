@@ -1,7 +1,7 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: "Fireck docs",
-  tagline: "Fireck - firebase headless cms",
+  title: "Fireck API reference",
+  tagline: "Fireck | Firebase Headless CMS",
   url: "https://fireck-docs.netlify.app/",
   baseUrl: "/",
   onBrokenLinks: "throw",
@@ -10,32 +10,19 @@ module.exports = {
   organizationName: "rromikas", // Usually your GitHub org/user name.
   projectName: "fireck-docs", // Usually your repo name.
   themeConfig: {
+    colorMode: {
+      disableSwitch: true,
+    },
+    sidebarCollapsible: false,
     navbar: {
       style: "primary",
       logo: {
         alt: "",
         src: "img/logo.svg",
       },
-      items: [
-        {
-          type: "doc",
-          docId: "intro",
-          position: "left",
-          label: "Intro",
-        },
-        {
-          type: "doc",
-          docId: "installation",
-          position: "left",
-          label: "Install",
-        },
-        {
-          type: "doc",
-          docId: "content-api/create",
-          position: "left",
-          label: "Content API",
-        },
-      ],
+    },
+    menu: {
+      style: "primary",
     },
     footer: {
       style: "dark",
@@ -48,6 +35,7 @@ module.exports = {
       "@docusaurus/preset-classic",
       {
         docs: {
+          routeBasePath: "/",
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           editUrl: "https://github.com/facebook/docusaurus/edit/master/website/",

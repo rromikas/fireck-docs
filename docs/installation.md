@@ -1,5 +1,6 @@
 ---
-sidebar_position: 2
+sidebar_position: 1
+slug: /
 ---
 
 # Installation
@@ -25,4 +26,4 @@ Enable the firestore and authentication in your [firebase console](https://conso
 
 ## Congratulations!
 
-You reached the point where you need to create a admin user. Create it. Create collections, add documents to them add media files to the library, customize the appearance of the app, change the logo and the colors palette. Read the [Content API](/docs/content-api/authorization) how to programmatically manage the contents.
+You reached the point where you need to create a admin user. Create it. Create collections, add documents to them add media files to the library, customize the appearance of the app, change the logo and the colors palette. Read the [Content API](/content-api/authorization) how to programmatically manage the contents.
