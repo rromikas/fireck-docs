@@ -2,6 +2,6 @@
   publish = "build"
   command = ""
 
-[redirects]
+[[redirects]]
   from = "/docs/*"
   to = "/:splat"
