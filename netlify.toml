@@ -6,3 +6,8 @@
   from = "/docs/*"
   to = "/:splat"
   status = 200
+  force = true
+
+[[redirects]]
+  from = "/"
+  to = "/docs/"
