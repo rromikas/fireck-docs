@@ -3,11 +3,12 @@
   command = ""
 
 [[redirects]]
+  from = "/"
+  to = "/docs/"
+
+[[redirects]]
   from = "/docs/*"
   to = "/:splat"
   status = 200
   force = true
 
-[[redirects]]
-  from = "/"
-  to = "/docs/"
