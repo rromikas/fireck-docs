@@ -1,0 +1,1 @@
+(self.webpackChunkfireck_docs=self.webpackChunkfireck_docs||[]).push([[371],{6353:function(e){"use strict";e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Welcome","permalink":"/docs/blog/welcome"},{"title":"Hello","permalink":"/docs/blog/hello-world"},{"title":"Hola","permalink":"/docs/blog/hola"}]}')}}]);
