@@ -6,6 +6,9 @@
  */
 
 /* You can override the default Infima variables here. */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap");
+
 :root {
   --ifm-color-primary: rgb(9, 23, 23);
   --ifm-color-primary-dark: rgb(33, 175, 144);
@@ -21,6 +24,7 @@
   --ifm-menu-color-background-hover: #091717;
   --ifm-navbar-link-color: white;
   --ifm-menu-link-sublist-icon-filter: invert(1);
+  --ifm-font-family-base: Poppins, sans-serif;
 }
 
 .docusaurus-highlight-code-line {
@@ -36,5 +40,9 @@
 }
 
 footer {
+  display: none;
+}
+
+.navbar__toggle {
   display: none;
 }

@@ -3,7 +3,7 @@ module.exports = {
   title: "Fireck Docs",
   tagline: "Fireck | Firebase Headless CMS",
   url: "https://fireck-docs.netlify.app",
-  baseUrl: "/docs/",
+  baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/logo.ico",
@@ -15,10 +15,19 @@ module.exports = {
     },
     sidebarCollapsible: false,
     navbar: {
+      items: [
+        {
+          type: "doc",
+          position: "left",
+          docId: "installation",
+          label: "Docs",
+        },
+      ],
       style: "primary",
       logo: {
         alt: "",
         src: "img/logo.svg",
+        href: "https://fireck.com",
       },
     },
     menu: {
